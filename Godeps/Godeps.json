@@ -1,11 +1,12 @@
 {
-	"ImportPath": "github.com/miguelmejiamontes/timestamp",
+	"ImportPath": "github.com/miglmj/timestamp",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v62",
-	"Packages": [
-		"./..."
-	],
 	"Deps": [
+		{
+			"ImportPath": "github.com/miglmj/tools",
+			"Rev": "d42736f190ad1ee13cb80c289925e75c27324d68"
+		},
 		{
 			"ImportPath": "github.com/russross/blackfriday",
 			"Comment": "v1.4-23-gb43df97",
