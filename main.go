@@ -10,7 +10,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", timefunc)
-	http.ListenAndServe(os.Getenv("PORT"), nil)
+	http.ListenAndServe(":"+os.Getenv("PORT"), nil)
 }
 
 func timefunc(w http.ResponseWriter, r *http.Request) {
